@@ -1,0 +1,61 @@
+{
+    "organize_map": {
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".webp",
+            ".bmp"
+        ],
+        "Documents": [
+            ".pdf",
+            ".docx",
+            ".doc",
+            ".txt",
+            ".odt",
+            ".rtf"
+        ],
+        "Archives": [
+            ".zip",
+            ".rar",
+            ".tar",
+            ".gz",
+            ".7z"
+        ],
+        "Scripts": [
+            ".py",
+            ".js",
+            ".sh",
+            ".bat",
+            ".ps1"
+        ],
+        "Videos": [
+            ".mp4",
+            ".mkv",
+            ".avi",
+            ".mov"
+        ],
+        "Audio": [
+            ".mp3",
+            ".wav",
+            ".flac"
+        ]
+    },
+    "suspicious_exts": [
+        ".exe",
+        ".scr",
+        ".pif",
+        ".cpl",
+        ".msi"
+    ],
+    "double_ext_suspicious": true,
+    "smtp": {
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "username": "aminp590@gmail.com",
+        "password": "yosa knod ceie prvc",
+        "from_addr": "aminp590@gmail.com",
+        "to_addr": "pinjariamin708@gmail.com"
+    }
+}
