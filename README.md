@@ -14,5 +14,3 @@ How to run:
 1. Install requirements: `pip install -r requirements.txt`
 2. Fill SMTP settings in `config.json`
 3. Run: `python main.py`
-
-This project is educational. The scanner uses heuristics and file extension checks only.
