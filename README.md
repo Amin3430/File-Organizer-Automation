@@ -10,7 +10,3 @@ Features:
 - Email reminder (SMTP-based) for reports
 - Stylish Tkinter/ttk GUI with progress and logs
 
-How to run:
-1. Install requirements: `pip install -r requirements.txt`
-2. Fill SMTP settings in `config.json`
-3. Run: `python main.py`
