@@ -45,6 +45,7 @@ def load_config():
     with open(cfg_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 # ---------- MD5 Checksum ----------
 def md5(path, block_size=65536):
     """
@@ -60,6 +61,7 @@ def md5(path, block_size=65536):
         return None
     return h.hexdigest()
 
+
 # ---------- File Organizer ----------
 def categorize_and_move(src_folder, dest_root, dry_run=False):
     """
@@ -72,13 +74,11 @@ def categorize_and_move(src_folder, dest_root, dry_run=False):
     ensure_folder(dest_root)
 
     for root, dirs, files in os.walk(src_folder):
-        # Skip destination folder itself
         if os.path.abspath(root).startswith(os.path.abspath(dest_root)):
             continue
         for name in files:
             src = os.path.join(root, name)
             ext = os.path.splitext(name)[1].lower()
-            # Determine category
             target_dir = None
             for cat, exts in organize_map.items():
                 if ext in [e.lower() for e in exts]:
